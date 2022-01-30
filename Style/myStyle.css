@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+#lightBox {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.item {
+  cursor: pointer;
+}
+#lightBoxImage {
+  background-image: url(../Images/1.jpg);
+  width: 50%;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+}
+@media screen and (max-width: 500px) {
+  #lightBoxImage {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 767px) {
+  #lightBoxImage {
+    width: 70%;
+  }
+}
+i {
+  margin: 20px;
+  color: white;
+  cursor: pointer;
+}
+i:hover {
+  color: burlywood;
+}

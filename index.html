@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                bootStrap                                -->
+    <!-- ----------------------------------------------------------------------- -->
+    <link rel="stylesheet" href="Style/bootstrap.min.css" />
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                               fontAwesome                               -->
+    <!-- ----------------------------------------------------------------------- -->
+    <link rel="stylesheet" href="Style/all.min.css" />
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                 myStyle                                 -->
+    <!-- ----------------------------------------------------------------------- -->
+    <link rel="stylesheet" href="Style/myStyle.css" />
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                 webIcon                                 -->
+    <!-- ----------------------------------------------------------------------- -->
+    <link rel="shortcut icon" href="Images/webIcon.png" type="image/x-icon" />
+
+    <title>Image Slider</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 my-2">
+          <div class="item">
+            <img src="Images/1.jpg" class="img-fluid w-100" alt="" />
+          </div>
+        </div>
+        <div class="col-md-4 my-2">
+          <div class="item">
+            <img src="Images/2.jpg" class="img-fluid w-100" alt="" />
+          </div>
+        </div>
+        <div class="col-md-4 my-2">
+          <div class="item">
+            <img src="Images/3.jpg" class="img-fluid w-100" alt="" />
+          </div>
+        </div>
+        <div class="col-md-4 my-2">
+          <div class="item">
+            <img src="Images/4.jpg" class="img-fluid w-100" alt="" />
+          </div>
+        </div>
+        <div class="col-md-4 my-2">
+          <div class="item">
+            <img src="Images/5.jpg" class="img-fluid w-100" alt="" />
+          </div>
+        </div>
+        <div class="col-md-4 my-2">
+          <div class="item">
+            <img src="Images/6.jpg" class="img-fluid w-100" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="lightBox" class="d-none justify-content-center align-items-center">
+      <div
+        id="lightBoxImage"
+        class="d-flex justify-content-between align-items-center position-relative"
+      >
+        <i class="far fa-arrow-alt-circle-left" id="prev"></i>
+        <i
+          class="far fa-times-circle position-absolute top-0 end-0"
+          id="close"
+        ></i>
+        <i class="far fa-arrow-alt-circle-right" id="next"></i>
+      </div>
+    </div>
+    <script src="Javascript/bootstrap.bundle.min.js"></script>
+    <script src="Javascript/myScript.js"></script>
+  </body>
+</html>
